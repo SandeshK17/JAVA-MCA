@@ -11,7 +11,7 @@ public class prime {
         }
         for(i = 2; i < num; i++) {
             if(num % i == 0) {
-                flag = 0;
+                flag = 0; // Number is not prime.
             }
         }
         if(flag == 1) {
