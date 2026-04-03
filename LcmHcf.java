@@ -11,7 +11,7 @@ public class LcmHcf {
         System.out.println("HCF of " + a + " and " + b + " :" + Hcf(a, b));
         sc.close();
     }
-    public static int Hcf(int a , int b) {
+    public static int Hcf(int a , int b) { // Euclid's Algorithm
         int temp = 0;
         while(b != 0) {
             temp = b;
