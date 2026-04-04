@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class PerfectNumber {
+public class PerfectNumber {                    // A perfect number is a number whose sum of all factors equals to that number.
     public static void main(String[] args) {
         int sum = 0;
         Scanner sc = new Scanner(System.in);
