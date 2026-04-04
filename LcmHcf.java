@@ -1,6 +1,6 @@
 import java.util.Scanner;
-public class LcmHcf {
-    public static void main(String[] args) {
+public class LcmHcf {                                  // LCM stands for Least Common Multiple
+    public static void main(String[] args) {           // HCF stands for Highest Common Factor
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter first number:");
         int a = sc.nextInt();
@@ -11,7 +11,7 @@ public class LcmHcf {
         System.out.println("HCF of " + a + " and " + b + " :" + Hcf(a, b));
         sc.close();
     }
-    public static int Hcf(int a , int b) { // Euclid's Algorithm
+    public static int Hcf(int a , int b) { // Euclid's Algorithm to find HCF
         int temp = 0;
         while(b != 0) {
             temp = b;
