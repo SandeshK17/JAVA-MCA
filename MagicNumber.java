@@ -1,4 +1,4 @@
-public class MagicNumber {
+public class MagicNumber {                         // A magic number is a number sum of whose digits is equals to 1.
     public static void main(String[] args) {
         int number = 145; // You can change this number to check if it's a magic number
         int sum = 0;
