@@ -4,7 +4,7 @@ public class factors {
         System.out.println("Factors of " + number + " are:");
         
         for (int i = 1; i <= number; i++) {
-            if (number % i == 0) {
+            if (number % i == 0) {          // Numbers that divide given number are factors of that number.
                 System.out.print(i + " ");
             }
         }
