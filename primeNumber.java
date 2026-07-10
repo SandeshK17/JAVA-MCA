@@ -5,7 +5,8 @@ public class primeNumber {
             boolean isPrime = true;
             for (int j = 2; j < i; j++) {
                 if (i % j == 0) {
-                    isPrime = false;    // A prime number has only two factors 1 and the number itself.
+                    isPrime = false;    // A prime number is a number that has
+                                        // only two factors 1 and the number itself.
                     break;
                 }
             }
