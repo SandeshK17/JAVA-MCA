@@ -11,7 +11,7 @@ public class LcmHcf {                                  // LCM stands for Least C
         System.out.println("HCF of " + a + " and " + b + " :" + Hcf(a, b));
         sc.close();
     }
-    public static int Hcf(int a , int b) { // Euclid's Algorithm to find HCF
+    public static int Hcf(int a , int b) { // Euclid's Algorithm to find HCF of two numbers
         int temp = 0;
         while(b != 0) {
             temp = b;
