@@ -1,6 +1,6 @@
 import java.util.Scanner;
-public class PerfectNumber {                    // A perfect number is a number whose sum of all factors equals to that number.
-    public static void main(String[] args) {
+public class PerfectNumber {                    // A perfect number is a number whose sum of all factors equals to that number(excluding itself).
+    public static void main(String[] args) {    // 6 = 1 + 2 + 3
         int sum = 0;
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter number:");
