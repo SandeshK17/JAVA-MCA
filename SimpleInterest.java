@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class SimpleInterest { // This program calculate both Simple interest and compound interest.
+public class SimpleInterest { // This program calculate both Simple Interest and Compound Interest.
     public static void main(String[] args) {
        Scanner sc = new Scanner(System.in);
        System.out.print("Enter Principal:");
