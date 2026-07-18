@@ -8,7 +8,7 @@ class evenOdd {
         if(num % 2 == 0) { // If a number is even the remainder is zero
             System.out.println(num + " is an Even number.");
         }
-        else{ // If the remainder is not 0 number is odd
+        else{ // If the remainder is not 0 the number is odd
             System.out.println(num + " is an Odd number.");
         }
         sc.close();
