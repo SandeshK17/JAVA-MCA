@@ -14,10 +14,10 @@ public class prime {
                 flag = 0; // Number is not prime.
             }
         }
-        if(flag == 1) {
+        if(flag == 1) { // True
             System.out.println(num + " is a Prime number.");
         }
-        else{
+        else{          // False
             System.out.println(num + " is not a Prime number.");
         }
         sc.close();
